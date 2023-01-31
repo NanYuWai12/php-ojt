@@ -25,7 +25,7 @@
 </head>
     <body>
         <form name="frmUser" method="post" action="" align="center">
-        <div class="message"><?php if($message!="") { echo $message; } ?></div>
+        <div class="message"><?php if($message) { echo $message; } ?></div>
         <h3 align="center">Enter Login Details</h3>
         Username:<br>
         <input type="text" name="username">
